@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.validator-card {
+  background: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-logos {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.card-logos img {
+  width: 50px;
+  height: auto;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 3px;
+}
+
+#validateButton {
+    background-color: #514db8;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+}
